@@ -28,16 +28,16 @@ function Navigation() {
     <>
       <nav
         className={`${
-          stickyNav ? "sticky top-0 bg-gray-600 shadow-xl py-2" : "relative py-3"
-        } z-50 flex items-center justify-between gap-4 px-4 sm:px-8`}
+          stickyNav
+            ? "sticky top-0 bg-white/95 backdrop-blur-md shadow-md py-2"
+            : "sticky top-0 bg-white shadow-sm py-3"
+        } z-50 flex items-center justify-between gap-4 px-4 sm:px-8 transition-all duration-300`}
       >
         <Logo />
 
-        <NavLinks styles="3xl:flex hidden gap-6 font-medium text-white" />
+        <NavLinks styles="3xl:flex hidden gap-7 font-bold text-sm uppercase tracking-wider text-matte-black" />
 
-        <NavButtons
-          onToggleNav={handleToggleNav}
-        />
+        <NavButtons onToggleNav={handleToggleNav} />
       </nav>
 
       <MobileNav isNavOpen={isNavOpen} onToggleNav={handleToggleNav} />

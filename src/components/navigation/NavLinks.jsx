@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-const linkStyles = "hover:text-red focus:text-red focus";
-// ring-offset-gray-600
+const linkStyles = "text-matte-black hover:text-red focus:text-red transition-colors duration-300 focus font-bold";
 
 function NavLinks({ onToggleNav, styles }) {
   return (

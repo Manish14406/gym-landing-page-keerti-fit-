@@ -1,6 +1,6 @@
 import { FaBars, FaPlus } from "react-icons/fa6";
 
-const btnStyles = `hover:text-red text-white transition-colors duration-300 focus`;
+const btnStyles = `hover:text-red text-matte-black transition-colors duration-300 focus`;
 
 function NavButtons({ onToggleNav}) {
   return (

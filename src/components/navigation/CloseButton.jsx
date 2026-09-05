@@ -5,9 +5,9 @@ function CloseButton({ onClick }) {
     <button
       onClick={onClick}
       aria-label="Close navigation menu"
-      className="focus text-red absolute right-6 top-6 z-50 flex h-11 w-11 items-center justify-center cursor-pointer rounded-full p-2 transition-transform hover:scale-110"
+      className="focus absolute right-6 top-6 z-50 flex h-11 w-11 items-center justify-center cursor-pointer rounded-full p-2 transition-transform hover:scale-110"
     >
-      <FaXmark className="h-7 w-7 text-white hover:text-red transition-colors" />
+      <FaXmark className="h-7 w-7 text-matte-black hover:text-red transition-colors" />
     </button>
   );
 }

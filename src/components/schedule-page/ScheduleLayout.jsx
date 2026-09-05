@@ -6,9 +6,9 @@ function ScheduleLayout() {
   const [selectedDay, setSelectedDay] = useState(0);
 
   return (
-    <section className="px-6 py-32">
+    <section className="bg-white px-6 py-20">
       <div className="container">
-        <div className="flex flex-col gap-1">
+        <div className="flex flex-col gap-8">
           <Days selectedDay={selectedDay} setSelectedDay={setSelectedDay} />
 
           <List selectedDay={selectedDay} />
