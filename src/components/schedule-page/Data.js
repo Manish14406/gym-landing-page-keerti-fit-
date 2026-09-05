@@ -1,121 +1,141 @@
 export const schedule = [
   [
     {
-      class: "Fitness",
-      time: "9:00am - 10:00am",
-      trainer: "Christiano Ronaldo",
+      class: "Gym Training",
+      time: "6:00am - 8:00am",
+      trainer: "Morning Batch",
     },
     {
-      class: "Body Building",
-      time: "10:00am - 11:00pm",
-      trainer: "arnold schwarzenegger",
-    },
-    {
-      class: "Running",
-      time: "4:00pm - 5:00pm",
-      trainer: "Usain Bolt",
-    },
-    {
-      class: "Fitness",
-      time: "6:00pm - 7:00pm",
-      trainer: "Virat Kohli",
-    },
-  ],
-  [
-    {
-      class: "Boxing",
-      time: "9:00am - 10:00am",
-      trainer: "Mike Tyson",
+      class: "Strength Training",
+      time: "9:00am - 11:00am",
+      trainer: "Morning Batch",
     },
     {
       class: "Yoga",
-      time: "11:00am - 12:00pm",
-      trainer: "Russell Brand",
-    },
-  ],
-  [
-    {
-      class: "Cycling",
-      time: "9:00am - 10:00am",
-      trainer: "Tadej Pogačar",
-    },
-    {
-      class: "Body Building",
-      time: "11:00am - 12:00pm",
-      trainer: "arnold schwarzenegger",
-    },
-    {
-      class: "Fitness",
-      time: "1:00pm - 2:00pm",
-      trainer: "Christiano Ronaldo",
-    },
-    {
-      class: "Running",
       time: "4:00pm - 5:00pm",
-      trainer: "Usain Bolt",
+      trainer: "Evening Batch",
+    },
+    {
+      class: "Gym Training",
+      time: "6:00pm - 8:00pm",
+      trainer: "Evening Batch",
     },
   ],
   [
     {
-      class: "Yoga",
-      time: "11:00am - 12:00pm",
-      trainer: "Russell Brand",
+      class: "Gym Training",
+      time: "6:00am - 8:00am",
+      trainer: "Morning Batch",
     },
     {
-      class: "Boxing",
-      time: "1:00pm - 2:00pm",
-      trainer: "Muhammad Ali",
-    },
-  ],
-  [
-    {
-      class: "Karate",
-      time: "10:00am - 11:00am",
-      trainer: "bruce lee",
-    },
-    {
-      class: "Meditation",
-      time: "1:00pm - 2:00pm",
-      trainer: "Babar Azam",
-    },
-    {
-      class: "Workout",
-      time: "4:00pm - 5:00pm",
-      trainer: "robert downey jr",
-    },
-  ],
-  [
-    {
-      class: "Power Lifting",
+      class: "Aerobics",
       time: "9:00am - 10:00am",
-      trainer: "Daniel Bell",
+      trainer: "Morning Batch",
     },
     {
-      class: "Boxing",
-      time: "1:00pm - 2:00pm",
-      trainer: "Mike Tyson",
+      class: "Gym Training",
+      time: "6:00pm - 8:00pm",
+      trainer: "Evening Batch",
+    },
+  ],
+  [
+    {
+      class: "Gym Training",
+      time: "6:00am - 8:00am",
+      trainer: "Morning Batch",
     },
     {
       class: "Yoga",
-      time: "6:00pm - 7:00pm",
-      trainer: "Chris Evan",
+      time: "9:00am - 10:00am",
+      trainer: "Morning Batch",
+    },
+    {
+      class: "Strength Training",
+      time: "4:00pm - 5:00pm",
+      trainer: "Evening Batch",
+    },
+    {
+      class: "Gym Training",
+      time: "6:00pm - 8:00pm",
+      trainer: "Evening Batch",
     },
   ],
   [
     {
-      class: "Body Building",
-      time: "10:00am - 11:00am",
-      trainer: "Cbum",
+      class: "Gym Training",
+      time: "6:00am - 8:00am",
+      trainer: "Morning Batch",
     },
     {
-      class: "Running",
+      class: "Aerobics",
+      time: "9:00am - 10:00am",
+      trainer: "Morning Batch",
+    },
+    {
+      class: "Gym Training",
+      time: "6:00pm - 8:00pm",
+      trainer: "Evening Batch",
+    },
+  ],
+  [
+    {
+      class: "Gym Training",
+      time: "6:00am - 8:00am",
+      trainer: "Morning Batch",
+    },
+    {
+      class: "Yoga",
+      time: "9:00am - 10:00am",
+      trainer: "Morning Batch",
+    },
+    {
+      class: "Cardio",
       time: "4:00pm - 5:00pm",
-      trainer: "Usain Bolt",
+      trainer: "Evening Batch",
     },
     {
-      class: "Martial Arts",
-      time: "6:00pm - 7:00pm",
-      trainer: "jackie chan",
+      class: "Gym Training",
+      time: "6:00pm - 8:00pm",
+      trainer: "Evening Batch",
+    },
+  ],
+  [
+    {
+      class: "Gym Training",
+      time: "6:00am - 8:00am",
+      trainer: "Morning Batch",
+    },
+    {
+      class: "Strength Training",
+      time: "9:00am - 11:00am",
+      trainer: "Morning Batch",
+    },
+    {
+      class: "Aerobics",
+      time: "4:00pm - 5:00pm",
+      trainer: "Evening Batch",
+    },
+    {
+      class: "Gym Training",
+      time: "6:00pm - 8:00pm",
+      trainer: "Evening Batch",
+    },
+  ],
+  [
+    {
+      class: "Gym Training",
+      time: "6:00am - 8:00am",
+      trainer: "Morning Batch",
+    },
+    {
+      class: "Yoga",
+      time: "9:00am - 10:00am",
+      trainer: "Morning Batch",
+    },
+    {
+      class: "Fitness Training",
+      time: "4:00pm - 5:00pm",
+      trainer: "Evening Batch",
     },
   ],
 ];

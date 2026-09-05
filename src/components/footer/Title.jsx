@@ -5,8 +5,8 @@ function Title() {
     <div className="space-y-4">
       <Logo type="black" />
       <p className="text-sm font-medium text-gray-300">
-        Take your health and body to the next level with our comprehensive
-        program designed to help you reach your fitness goals.
+        <strong>Your Fitness, Our Mission</strong> — Serving Kattigenahalli,
+        Bangalore since 2006.
       </p>
     </div>
   );

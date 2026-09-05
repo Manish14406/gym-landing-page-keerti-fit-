@@ -5,10 +5,12 @@ function Title() {
   return (
     <>
       <SecondaryHeading>Who we are</SecondaryHeading>
-      <TertiaryHeading>Take your health and body to next level</TertiaryHeading>
+      <TertiaryHeading>Serving Bangalore&apos;s fitness community since 2006</TertiaryHeading>
       <p className="mb-14 font-medium text-gray-400">
-        Take your health and body to the next level with our comprehensive
-        program designed to help you reach your fitness goals.
+        Keerthi Fitness has been your trusted fitness partner in Kattigenahalli,
+        Bangalore since 2006. We offer Gym, Yoga, and Aerobics programs designed
+        to help you build strength, improve flexibility, and stay active — at a
+        price that works for you.
       </p>
     </>
   );

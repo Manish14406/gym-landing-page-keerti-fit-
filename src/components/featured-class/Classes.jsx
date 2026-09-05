@@ -14,8 +14,8 @@ function Classes() {
           className={`${bgStyles} bg-[url('./images/featured-class/cycling.webp')]`}
         ></div>
         <div className="absolute bottom-0 z-10 mb-5 ml-5 cursor-text space-y-2 text-white">
-          <h4 className="text-3xl font-bold">Cycling</h4>
-          <p className="bg-red px-3 py-0.5">Wednesday: 9:00am-10:00am</p>
+          <h4 className="text-3xl font-bold">Gym</h4>
+          <p className="bg-red px-3 py-0.5">Mon – Sat: Morning &amp; Evening</p>
         </div>
       </div>
 
@@ -27,9 +27,9 @@ function Classes() {
           className={`${bgStyles} bg-[url('./images/featured-class/karate.webp')]`}
         ></div>
         <div className="absolute bottom-0 z-10 mb-5 ml-5 cursor-text space-y-2 text-white">
-          <h4 className="text-3xl font-bold">Karate</h4>
+          <h4 className="text-3xl font-bold">Yoga</h4>
           <p className="whitespace-nowrap bg-red px-3 py-0.5">
-            Friday: 10:00am-11:00am
+            Daily: Morning Sessions
           </p>
         </div>
       </div>
@@ -42,9 +42,9 @@ function Classes() {
           className={`${bgStyles} bg-[url('./images/featured-class/power.webp')]`}
         ></div>
         <div className="absolute bottom-0 z-10 mb-5 ml-5 cursor-text space-y-2 text-white">
-          <h4 className="text-3xl font-bold">Power</h4>
+          <h4 className="text-3xl font-bold">Aerobics</h4>
           <p className="whitespace-nowrap bg-red px-3 py-0.5">
-            Saturday: 9:00am-10:00am
+            Daily: Evening Sessions
           </p>
         </div>
       </div>
@@ -57,9 +57,9 @@ function Classes() {
           className={`${bgStyles} bg-[url('./images/featured-class/meditation.webp')]`}
         ></div>
         <div className="absolute bottom-0 z-10 mb-5 ml-5 cursor-text space-y-2 text-white">
-          <h4 className="text-3xl font-bold">Meditation</h4>
+          <h4 className="text-3xl font-bold">Strength Training</h4>
           <p className="whitespace-nowrap bg-red px-3 py-0.5">
-            Friday: 1:00pm-2:00pm
+            Mon – Fri: All Day
           </p>
         </div>
       </div>
@@ -72,9 +72,9 @@ function Classes() {
           className={`${bgStyles} bg-[url('./images/featured-class/martial-arts.webp')]`}
         ></div>
         <div className="absolute bottom-0 z-10 mb-5 ml-5 cursor-text space-y-2 text-white">
-          <h4 className="text-3xl font-bold">Martial Arts</h4>
+          <h4 className="text-3xl font-bold">Cardio</h4>
           <p className="whitespace-nowrap bg-red px-3 py-0.5">
-            Sunday: 6:00pm-7:00pm
+            Daily: All Sessions
           </p>
         </div>
       </div>
@@ -87,8 +87,8 @@ function Classes() {
           className={`${bgStyles} bg-[url('./images/featured-class/workout.webp')]`}
         ></div>
         <div className="absolute bottom-0 z-10 mb-5 ml-5 cursor-text space-y-2 text-white">
-          <h4 className="text-3xl font-bold">Workout</h4>
-          <p className="bg-red px-3 py-0.5">Monday: 4:00pm-5:00pm</p>
+          <h4 className="text-3xl font-bold">Fitness Training</h4>
+          <p className="bg-red px-3 py-0.5">Mon – Sat: All Day</p>
         </div>
       </div>
     </div>

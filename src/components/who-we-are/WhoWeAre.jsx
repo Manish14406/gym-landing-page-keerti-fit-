@@ -16,7 +16,7 @@ function WhoWeAre() {
 
             <Facilities />
 
-            <SecondaryButton to="/classes">Take a tour</SecondaryButton>
+            <SecondaryButton to="/pricing">View Pricing</SecondaryButton>
           </div>
 
           <RunningGirl />

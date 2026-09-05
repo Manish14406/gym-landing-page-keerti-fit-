@@ -26,7 +26,7 @@ function List({ selectedDay }) {
 
           <Link
             to="/contact"
-            className="self-center rounded-full bg-gray-400 p-3 text-sm font-bold text-white transition-all duration-300 hover:bg-red"
+            className="self-center rounded-full border-2 border-red bg-matte-black px-6 py-2.5 text-sm font-bold uppercase text-white shadow-md transition-all duration-300 hover:bg-red hover:border-red hover:text-white"
           >
             Join Now
           </Link>

@@ -4,13 +4,15 @@ import TertiaryHeading from "../../headings/TertiaryHeading";
 function Title() {
   return (
     <div>
-      <SecondaryHeading>Who we are</SecondaryHeading>
-      <TertiaryHeading>We will give you strength and health</TertiaryHeading>
+      <SecondaryHeading>About Us</SecondaryHeading>
+      <TertiaryHeading>Your Fitness, Our Mission — Since 2006</TertiaryHeading>
       <p className="font-medium text-gray-300">
-        CoreFit an unknown printer took a galley type and scraey aretea bled make
-        a type specimen book. May has survived not onlyive centuries but also
-        the leap electronic.CoreFitn unknown printer took a galley of type and
-        scraey aretea.
+        Keerthi Fitness has been a cornerstone of the fitness community in
+        Kattigenahalli, Bengaluru since 2006. For nearly two decades, we have
+        been helping individuals of all fitness levels achieve their health goals
+        through our Gym, Yoga, and Aerobics programs. Our facility provides a
+        welcoming and motivating environment where you can train at your own pace
+        and reach your potential.
       </p>
     </div>
   );

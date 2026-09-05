@@ -6,41 +6,60 @@ function Info() {
   return (
     <div>
       <h3 className="mb-4 text-3xl font-bold">
-        We are here for help you To Shape Your Body
+        Get in Touch with Keerthi Fitness
       </h3>
       <p className="font-medium text-gray-300">
-       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente molestias excepturi, ipsam alias dolor, in debitis labore rem, non obcaecati eos vel quos. Minus cumque eum facere molestiae iusto adipisci!
+        We would love to hear from you! Whether you are looking to join our gym,
+        enquire about membership plans, or visit us at our Kattigenahalli
+        location — reach out and we will be happy to assist you.
       </p>
       <div className="grid 2xl:grid-cols-2 2xl:gap-y-8">
         <div>
-          <h4 className={headingStyles}>Karachi, Pakistan</h4>
+          <h4 className={headingStyles}>Our Location</h4>
           <address className="font-medium not-italic text-gray-300">
-            Shah Faisal Colony
-            <br /> Karachi
+            4JCF+JC6, 28, Bagalur Main Rd,
+            <br />
+            near Indian Oil petrol bunk,
+            <br />
+            Chidananda Reddy Layout, Dwarka Nagar,
+            <br />
+            Kattigenahalli, Bengaluru,
+            <br />
+            Karnataka 560064
           </address>
+          <a
+            href="https://maps.google.com/?q=Keerthi+Fitness+Kattigenahalli+Bangalore"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-3 inline-block font-semibold text-red hover:underline"
+          >
+            📍 Get Directions
+          </a>
         </div>
         <div>
           <h4 className={headingStyles}>Opening Hours</h4>
           <p className="whitespace-nowrap font-medium text-gray-300">
-            Mon to Fri: 9:00 am — 10:00 pm
+            Mon to Sat: Morning &amp; Evening Sessions
           </p>
           <p className="whitespace-nowrap font-medium text-gray-300">
-            Sat: 10:30 pm — 12:00 am
+            Contact us for exact timings
           </p>
         </div>
         <div>
-          <h4 className={headingStyles}>Information</h4>
+          <h4 className={headingStyles}>Contact Information</h4>
           <a
-            href="tel:+98-21-225-429-71"
-            className="block font-medium text-gray-300"
+            href="tel:+919901321224"
+            className="block font-medium text-gray-300 hover:text-red transition-colors duration-300"
           >
-            +92 31523697586
+            📞 +91 9901321224
           </a>
           <a
-            href="sharjeelsiddiqui00@gmail.com"
-            className="block font-medium text-gray-300"
+            href="https://wa.me/919901321224?text=Hi%20Keerthi%20Fitness%2C%20I%20would%20like%20to%20know%20more%20about%20the%20membership%20plans."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block font-medium text-gray-300 hover:text-red transition-colors duration-300"
           >
-            sharjeelsiddiqui00@gmail.com
+            💬 WhatsApp Us
           </a>
         </div>
         <div>

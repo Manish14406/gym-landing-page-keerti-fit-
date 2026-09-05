@@ -6,13 +6,12 @@ function Title() {
     <div className="mb-10">
       <SecondaryHeading>Why choose us</SecondaryHeading>
       <TertiaryHeading color="white">
-        W can give a shape of your body here!
+        Stronger Today, Better Tomorrow
       </TertiaryHeading>
       <p className="font-medium text-gray-200">
-        At <b>CoreFit</b>, we are dedicated to helping you achieve the body of
-        your dreams. Our expert trainers and nutritionists will work with you to
-        create a personalized fitness and nutrition plan that helps you reach
-        your specific goals.
+        At <b>Keerthi Fitness</b>, we are dedicated to helping you achieve your
+        fitness goals. With programs in Gym, Yoga, and Aerobics, we offer
+        the right environment for everyone — beginners to advanced.
       </p>
     </div>
   );

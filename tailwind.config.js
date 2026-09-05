@@ -31,6 +31,7 @@ export default {
     },
     fontFamily: {
       sans: "Montserrat, sans-serif",
+      heading: "'Oswald', 'Montserrat', sans-serif",
     },
     fontWeight: {
       thin: "100",
@@ -42,7 +43,20 @@ export default {
     colors: {
       transparent: "transparent",
       white: "#ffffff",
-      red: "#ff0336",
+      red: "#ff5500",
+      orange: {
+        DEFAULT: "#ff5500",
+        50: "#fff7ed",
+        100: "#ffedd5",
+        200: "#fed7aa",
+        300: "#fdba74",
+        400: "#fb923c",
+        500: "#ff5500",
+        600: "#ea580c",
+        700: "#c2410c",
+      },
+      "matte-black": "#141414",
+      "matte-dark": "#1a1a1a",
       gray: {
         50: "#efefef",
         100: "#dedede",
@@ -54,8 +68,8 @@ export default {
         400: "#595959",
         450: "#3f3f3f",
         500: "#323232",
-        550: "#2b2b2b",
-        600: "#000000",
+        550: "#222222",
+        600: "#141414",
       },
     },
     container: {

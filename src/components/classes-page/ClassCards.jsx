@@ -16,11 +16,11 @@ function ClassCards() {
             className={`${cardStyles} before:bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/featured-class/cycling.webp')]`}
           >
             <h3 className="mb-3 text-2xl font-bold transition-all group-hover:text-white">
-              Cycling
+              Gym Training
             </h3>
             <p className="font-medium text-gray-300 transition-all group-hover:text-white">
-              The Best Body Fitness in Town Authoritatively disseminate
-              multimedia based
+              Full gym access with strength and weight training
+              equipment for all fitness levels.
             </p>
           </div>
         </div>
@@ -35,11 +35,11 @@ function ClassCards() {
             className={`${cardStyles} before:bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/featured-class/meditation.webp')]`}
           >
             <h3 className="mb-3 text-2xl font-bold transition-all group-hover:text-white">
-              Meditation
+              Yoga
             </h3>
             <p className="font-medium text-gray-300 transition-all group-hover:text-white">
-              The Best Body Fitness in Town Authoritatively disseminate
-              multimedia based
+              Improve flexibility, balance, and mental well-being with
+              guided yoga sessions for all levels.
             </p>
           </div>
         </div>
@@ -54,11 +54,11 @@ function ClassCards() {
             className={`${cardStyles} before:bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/featured-class/martial-arts.webp')]`}
           >
             <h3 className="mb-3 text-2xl font-bold transition-all group-hover:text-white">
-              Martial Arts
+              Aerobics
             </h3>
             <p className="font-medium text-gray-300 transition-all group-hover:text-white">
-              The Best Body Fitness in Town Authoritatively disseminate
-              multimedia based
+              High-energy aerobics to burn calories and boost
+              cardiovascular health. Great for all levels.
             </p>
           </div>
         </div>
@@ -73,11 +73,11 @@ function ClassCards() {
             className={`${cardStyles} before:bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/featured-class/karate.webp')]`}
           >
             <h3 className="mb-3 text-2xl font-bold transition-all group-hover:text-white">
-              Karate
+              Strength Training
             </h3>
             <p className="font-medium text-gray-300 transition-all group-hover:text-white">
-              The Best Body Fitness in Town Authoritatively disseminate
-              multimedia based
+              Build muscle and increase endurance with dedicated
+              strength and resistance training programs.
             </p>
           </div>
         </div>
@@ -92,11 +92,11 @@ function ClassCards() {
             className={`${cardStyles} before:bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/featured-class/power.webp')]`}
           >
             <h3 className="mb-3 text-2xl font-bold transition-all group-hover:text-white">
-              Power Lifting
+              Cardio
             </h3>
             <p className="font-medium text-gray-300 transition-all group-hover:text-white">
-              The Best Body Fitness in Town Authoritatively disseminate
-              multimedia based
+              Dedicated cardio sessions to improve stamina, heart
+              health, and overall fitness.
             </p>
           </div>
         </div>
@@ -111,11 +111,11 @@ function ClassCards() {
             className={`${cardStyles} before:bg-[linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('./images/featured-class/workout.webp')] before:bg-right`}
           >
             <h3 className="mb-3 text-2xl font-bold transition-all group-hover:text-white">
-              Workout
+              Fitness Training
             </h3>
             <p className="font-medium text-gray-300 transition-all group-hover:text-white">
-              The Best Body Fitness in Town Authoritatively disseminate
-              multimedia based
+              Comprehensive fitness training programs tailored to your
+              individual goals and fitness level.
             </p>
           </div>
         </div>

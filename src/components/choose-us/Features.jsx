@@ -13,7 +13,7 @@ function Features() {
           className="w-16 rounded-full bg-gray-550 p-2 transition-all duration-700 hover:shadow-2xl hover:shadow-red"
         />
         <h4 className="basis-32 text-lg font-bold capitalize text-white">
-          Free fitness training
+          Gym Training
         </h4>
       </div>
       <div className="flex items-center justify-center gap-4">
@@ -23,7 +23,7 @@ function Features() {
           className="w-16 rounded-full bg-gray-550 p-2 transition-all duration-700 hover:shadow-2xl hover:shadow-red"
         />
         <h4 className="basis-32 text-lg font-bold capitalize text-white">
-          Modern gym equipments
+          Yoga Classes
         </h4>
       </div>
       <div className="flex items-center justify-center gap-4">
@@ -33,7 +33,7 @@ function Features() {
           className="w-16 rounded-full bg-gray-550 p-2 transition-all duration-700 hover:shadow-2xl hover:shadow-red"
         />
         <h4 className="basis-32 text-lg font-bold capitalize text-white">
-          Gym bag equipments
+          Aerobics
         </h4>
       </div>
       <div className="flex items-center justify-center gap-4">
@@ -43,7 +43,7 @@ function Features() {
           className="w-16 rounded-full bg-gray-550 p-2 transition-all duration-700 hover:shadow-2xl hover:shadow-red"
         />
         <h4 className="basis-32 text-lg font-bold capitalize text-white">
-          Fresh bottle of water
+          Fitness Training
         </h4>
       </div>
     </div>

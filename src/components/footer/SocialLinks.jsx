@@ -1,8 +1,8 @@
 import {
-  FaLinkedin,
-  FaGithub,
+  FaWhatsapp,
+  FaPhone,
+  FaMapLocationDot,
   FaInstagram,
-  FaFacebookF,
 } from "react-icons/fa6";
 
 const linkStyles =
@@ -10,24 +10,24 @@ const linkStyles =
 
 const socialMediaLinks = [
   {
-    name: "LinkedIn",
-    url: "https://www.linkedin.com/in/sharjeel-siddiqui-599870248/", // Replace with your actual Facebook page URL
-    icon: <FaLinkedin />,
+    name: "WhatsApp",
+    url: "https://wa.me/919901321224?text=Hi%20Keerthi%20Fitness%2C%20I%20would%20like%20to%20know%20more%20about%20the%20membership%20plans.",
+    icon: <FaWhatsapp />,
   },
   {
-    name: "Github",
-    url: "https://github.com/sharjeel-siddiqui12", // Replace with your actual Twitter profile URL
-    icon: <FaGithub />,
+    name: "Call",
+    url: "tel:+919901321224",
+    icon: <FaPhone />,
+  },
+  {
+    name: "Directions",
+    url: "https://maps.google.com/?q=Keerthi+Fitness+Kattigenahalli+Bangalore",
+    icon: <FaMapLocationDot />,
   },
   {
     name: "Instagram",
-    url: "https://www.instagram.com/sharjeel_.siddiqui._/", // Replace with your actual Pinterest profile URL
+    url: "https://www.instagram.com/",
     icon: <FaInstagram />,
-  },
-  {
-    name: "Facebook",
-    url: "https://www.facebook.com/sharjeel.siddiqui15", // Replace with your actual YouTube channel URL
-    icon: <FaFacebookF />,
   },
 ];
 
@@ -38,7 +38,7 @@ function SocialLinks() {
         <li key={name}>
           <a
             href={url}
-            target="_blank"
+            target={name === "Call" ? undefined : "_blank"}
             rel="noopener noreferrer"
             className={linkStyles}
             aria-label={name}

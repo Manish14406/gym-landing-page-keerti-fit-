@@ -4,9 +4,10 @@ function CloseButton({ onClick }) {
   return (
     <button
       onClick={onClick}
-      className="focus text-red absolute right-9 top-8 z-50 h-8 w-8 cursor-pointer "
+      aria-label="Close navigation menu"
+      className="focus text-red absolute right-6 top-6 z-50 flex h-11 w-11 items-center justify-center cursor-pointer rounded-full p-2 transition-transform hover:scale-110"
     >
-      <FaXmark className="h-auto w-full" />
+      <FaXmark className="h-7 w-7 text-white hover:text-red transition-colors" />
     </button>
   );
 }

@@ -4,11 +4,11 @@ import TertiaryHeading from "../headings/TertiaryHeading";
 function Title() {
   return (
     <div className="relative z-20">
-      <SecondaryHeading>Pricing chart</SecondaryHeading>
-      <TertiaryHeading>Exclusive pricing plan</TertiaryHeading>
+      <SecondaryHeading>Membership Plans</SecondaryHeading>
+      <TertiaryHeading>Flexible pricing for every goal</TertiaryHeading>
       <p className="mx-auto max-w-[50ch] font-medium text-gray-300">
-        CoreFit an unknown printer took a galley of type and scrambled make a type
-        specimen book.
+        Choose the plan that works best for you. Admission fee of ₹1,000
+        applies once. All plans include access to our full gym facility.
       </p>
     </div>
   );

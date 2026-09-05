@@ -11,25 +11,25 @@ function Facilities() {
           alt="trainers"
           className="hover:rotate-y-180 h-auto w-16 transition-all duration-700"
         />
-        <h4 className="w-48 text-xl font-bold uppercase">
-          Professional trainers
+        <h4 className="w-48 text-xl font-bold uppercase text-matte-black">
+          Gym Training
         </h4>
       </div>
       <div className="flex flex-col items-center gap-4 lg:border-l lg:border-r lg:border-gray-150">
         <img
           src={equipments}
-          alt="equipments"
+          alt="yoga"
           className="hover:rotate-y-180 h-auto w-16 transition-all duration-700"
         />
-        <h4 className="w-48 text-xl font-bold uppercase">Modern equipments</h4>
+        <h4 className="w-48 text-xl font-bold uppercase text-matte-black">Yoga Classes</h4>
       </div>
       <div className="flex flex-col items-center gap-4">
         <img
           src={machines}
-          alt="machines"
+          alt="aerobics"
           className="hover:rotate-y-180 h-auto w-16 transition-all duration-700"
         />
-        <h4 className="w-48 text-xl font-bold uppercase">Fancy gym machines</h4>
+        <h4 className="w-48 text-xl font-bold uppercase text-matte-black">Aerobics</h4>
       </div>
     </div>
   );

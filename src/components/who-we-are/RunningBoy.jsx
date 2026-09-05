@@ -5,7 +5,9 @@ function RunningGirl() {
     <div className="hidden 2xl:block">
       <img
         src={runningBoy}
-        alt="runningBoy"
+        alt="Keerthi Fitness Athlete Running"
+        loading="lazy"
+        decoding="async"
         className="h-auto w-full animate-float2"
       />
     </div>

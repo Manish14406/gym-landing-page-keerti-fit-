@@ -12,44 +12,53 @@ function History() {
         <div className="flex h-full flex-col gap-4 self-center bg-white p-4">
           <img
             src={target}
-            alt=""
+            alt="Target icon"
+            loading="lazy"
+            decoding="async"
             className="hover:rotate-y-180 mx-auto w-32 transition-all duration-700"
           />
-          <TertiaryHeading>Our history</TertiaryHeading>
+          <TertiaryHeading>Our Story</TertiaryHeading>
           <p className="font-medium text-gray-300">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit Exercitation
-            veniam consequat.
+            Founded in 2006, Keerthi Fitness started with a simple vision — to
+            make quality fitness accessible to everyone in Kattigenahalli,
+            Bangalore. Nearly two decades later, we continue to serve our
+            community with the same passion and commitment.
           </p>
         </div>
 
         <div className="overflow-hidden">
           <img
             src={img1}
-            alt=""
-            className="h-full transition-all duration-300 hover:scale-110"
+            alt="Keerthi Fitness training history"
+            loading="lazy"
+            decoding="async"
+            className="h-full w-full object-cover transition-all duration-300 hover:scale-110"
           />
         </div>
 
         <div className="flex h-full flex-col gap-4 self-center bg-white p-4 xl:order-4">
           <img
             src={mountain}
-            alt=""
+            alt="Mountain icon"
+            loading="lazy"
+            decoding="async"
             className="hover:rotate-y-180 mx-auto transition-all duration-700"
           />
           <TertiaryHeading>Our Mission</TertiaryHeading>
           <p className="font-medium text-gray-300">
-            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
-            sint. Velit officia consequat duis enim velit mollit Exercitation
-            veniam consequat.
+            Your Fitness, Our Mission. We are committed to providing Gym, Yoga,
+            and Aerobics programs in a welcoming environment — helping every
+            member become stronger today and better tomorrow.
           </p>
         </div>
 
         <div className="overflow-hidden">
           <img
             src={img2}
-            alt=""
-            className="h-full transition-all duration-300 hover:scale-110"
+            alt="Keerthi Fitness community workout"
+            loading="lazy"
+            decoding="async"
+            className="h-full w-full object-cover transition-all duration-300 hover:scale-110"
           />
         </div>
       </div>

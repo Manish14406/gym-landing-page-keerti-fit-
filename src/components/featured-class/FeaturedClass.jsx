@@ -6,9 +6,9 @@ function FeaturedClass() {
   return (
     <section className="overflow-x-clip px-6 py-32 text-center">
       <div className="container">
-        <SecondaryHeading>Our featured class</SecondaryHeading>
+        <SecondaryHeading>Our Programs</SecondaryHeading>
 
-        <TertiaryHeading>We are offering best flexible classes</TertiaryHeading>
+        <TertiaryHeading>Gym · Yoga · Aerobics & More</TertiaryHeading>
 
         <Classes />
       </div>

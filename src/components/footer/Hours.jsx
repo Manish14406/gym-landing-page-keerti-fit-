@@ -6,13 +6,16 @@ function Hours() {
       </h4>
       <ul className="space-y-5 font-medium text-gray-300">
         <li>
-          <span className="font-semibold">Monday – Friday: </span>9:00 am - 10 pm
+          <span className="font-semibold">Monday – Saturday: </span>Morning &amp; Evening Sessions
         </li>
         <li>
-          <span className="font-semibold">Saturday: </span>10:00 am - 12:00 am
+          <span className="font-semibold">Sunday: </span>Contact for availability
         </li>
         <li>
-          <span className="font-semibold">Sunday: </span>Closed
+          <span className="font-semibold">Phone: </span>
+          <a href="tel:+919901321224" className="hover:text-red transition-colors duration-300">
+            +91 9901321224
+          </a>
         </li>
       </ul>
     </div>

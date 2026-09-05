@@ -5,9 +5,10 @@ function SecondaryButton({ to = "/", children }) {
   return (
     <Link
       to={to}
-      className="focus text-md relative inline-flex items-center gap-1.5 bg-gray-450 px-8 py-4 font-bold uppercase text-white before:absolute before:left-3 before:top-[-12px] before:z-[-1] before:h-full before:w-full before:border before:border-solid before:border-gray-450/50 before:transition-all before:duration-500 hover:bg-red hover:before:translate-x-[-12px] hover:before:translate-y-[12px] hover:before:border-red/50"
+      className="group focus relative inline-flex items-center gap-2 border-2 border-red bg-matte-black px-8 py-4 text-sm font-bold uppercase text-white shadow-lg transition-all duration-300 hover:bg-red hover:border-red hover:text-white"
     >
-      {children} <FaArrowRight className="h-auto w-3.5" />
+      <span>{children}</span>
+      <FaArrowRight className="h-auto w-3.5 text-red transition-colors duration-300 group-hover:text-white" />
     </Link>
   );
 }

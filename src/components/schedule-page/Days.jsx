@@ -12,14 +12,13 @@ function Days({ selectedDay, setSelectedDay }) {
       {openDays.map((day, i) => (
         <button
           key={i}
-          className={`rounded-full border px-4 py-2 font-semibold transition-all duration-300 hover:border-red hover:bg-red hover:text-white hover:shadow-xl xl:px-6 ${
+          className={`rounded-full border-2 px-4 py-2 text-sm font-bold uppercase transition-all duration-300 xl:px-6 ${
             selectedDay === i
-              ? "border-red bg-red text-white" 
-              : "border-gray-150"
+              ? "border-red bg-red text-white shadow-lg shadow-orange/30"
+              : "border-matte-black bg-matte-black text-white hover:border-red hover:bg-red hover:text-white"
           }`}
           onClick={() => setSelectedDay(i)}
         >
-          
           {day}
         </button>
       ))}

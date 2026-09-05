@@ -1,37 +1,29 @@
-import { FaLinkedin, FaSquareGithub, FaSquareInstagram } from "react-icons/fa6";
+import { FaWhatsapp, FaPhone } from "react-icons/fa6";
 
 function Share() {
   return (
     <div className="hidden rotate-[270deg] items-center justify-center gap-4 xl:flex">
       <div className="flex gap-4 text-white">
         <a
-          href="https://www.linkedin.com/in/sharjeel-siddiqui-599870248/" 
+          href="https://wa.me/919901321224?text=Hi%20Keerthi%20Fitness%2C%20I%20would%20like%20to%20know%20more%20about%20the%20membership%20plans."
           target="_blank"
           rel="noopener noreferrer"
           className="transition-colors duration-300 hover:text-red"
+          aria-label="WhatsApp"
         >
-          <FaLinkedin className="h-auto w-7 rotate-90" />
+          <FaWhatsapp className="h-auto w-7 rotate-90" />
         </a>
         <a
-          href="https://github.com/sharjeel-siddiqui12" 
-          target="_blank"
-          rel="noopener noreferrer"
+          href="tel:+919901321224"
           className="transition-colors duration-300 hover:text-red"
+          aria-label="Call"
         >
-          <FaSquareGithub className="h-auto w-7 rotate-90" />
-        </a>
-        <a
-          href="https://www.instagram.com/sharjeel_.siddiqui._/" 
-          target="_blank"
-          rel="noopener noreferrer"
-          className="transition-colors duration-300 hover:text-red"
-        >
-          <FaSquareInstagram className="h-auto w-7 rotate-90" />
+          <FaPhone className="h-auto w-7 rotate-90" />
         </a>
       </div>
       <div className="h-0.5 w-12 bg-red"></div>
       <p className="inline-block text-lg font-bold uppercase text-white">
-        Share
+        Contact
       </p>
     </div>
   );
